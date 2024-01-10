@@ -1,0 +1,163 @@
+body{
+    background-image: url(img/bg.avif);
+    background-attachment: fixed;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+img{
+    width: auto;
+    height: 180px;
+}
+
+.header,
+.topBody,
+.lowerBody,
+ul{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.hero{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+
+.bodybody{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.headerLogo {
+    font-size: 24px;
+    margin: 0px;
+    color: #F9FAF8;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 450px;
+    border-radius: 10px;
+    border: 2px solid wheat;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    color: wheat;
+}
+
+.boxTitles{
+    font-size: 36px;
+    color: wheat;
+}
+
+.header,
+.topBody,
+.footer{
+    color: white;
+    background-color: #c75910;
+    justify-content: center;
+    
+}
+
+.topBody{
+    padding-bottom: 40px;
+    border-radius: 10px;
+    border: 2px solid wheat;
+}
+
+.footer{
+    padding: 0px;
+    text-align: center;
+    background-color: #517ed7;
+}
+
+
+h2{
+    text-align: center;
+    padding: 0;
+}
+
+.box {
+    width: 160px;
+    height: 100px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: wheat;
+    margin: 0;
+}
+
+.container p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middleBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #517ed7;
+    color: white;
+    padding: 40px; 
+    margin: 40px 0px;
+    gap: 10px;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+}
+
+.b1,
+.b2{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 4px 24px;
+    border: 2px solid wheat;
+}
+
+.b1{
+    border: 2px solid wheat;
+}
+
+.lowerBody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #c75910;
+    color: white;
+    gap: 48px;
+    padding: 20px 70px;
+    margin: 30px auto;
+    border-radius: 15px;
+}
+
+.author{
+    font-size:24px;
+    margin: 0px;
+}
